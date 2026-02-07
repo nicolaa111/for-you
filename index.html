@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hey, it’s me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game">
+    <h1>hey, it’s me.</h1>
+    <p>how are you feeling right now?</p>
+
+    <div class="emojis">
+      <button onclick="chooseMood('happy')">🙂</button>
+      <button onclick="chooseMood('sad')">😞</button>
+      <button onclick="chooseMood('angry')">😠</button>
+      <button onclick="chooseMood('tired')">😴</button>
+      <button onclick="chooseMood('confused')">😕</button>
+      <button onclick="chooseMood('hopeful')">✨</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <audio id="clickSound" src="sounds/click.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
